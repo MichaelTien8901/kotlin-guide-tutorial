@@ -22,11 +22,8 @@ Set up your Kotlin development environment and run your first program.
 
 | Chapter | Description |
 |---------|-------------|
-| Introduction | What Kotlin is, where it runs, why use it |
-| Setup | Install the JDK and IntelliJ IDEA / Android Studio |
-| Kotlin Playground | Run Kotlin in the browser |
-| Build Tools | `kotlinc`, the REPL, and a first Gradle project |
-| Hello World | Your first runnable Kotlin program |
-
-{: .note }
-Chapters for this part are being written. Check back soon.
+| [Introduction]({% link part1/01-introduction.md %}) | What Kotlin is, where it runs, why use it |
+| [Setting Up Your Environment]({% link part1/02-setup.md %}) | Install the JDK and IntelliJ IDEA / Android Studio |
+| [Kotlin Playground]({% link part1/03-kotlin-playground.md %}) | Run Kotlin in the browser |
+| [Build Tools & the Compiler]({% link part1/04-build-tools.md %}) | `kotlinc`, the REPL, and a first Gradle project |
+| [Hello, World!]({% link part1/05-hello-world.md %}) | Your first runnable Kotlin program |
