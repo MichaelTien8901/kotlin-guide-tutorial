@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose provides the real UI theme (MaterialTheme); the Activity only
+         needs a basic platform theme with no action bar. Using a built-in
+         android theme avoids pulling in the Material Components XML library. -->
+    <style name="Theme.KotlinGuide" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

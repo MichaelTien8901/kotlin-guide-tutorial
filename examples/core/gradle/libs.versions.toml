@@ -1,0 +1,11 @@
+# Shared version catalog for the core (JVM) Kotlin examples.
+# Bump versions here so every example module stays consistent.
+[versions]
+kotlin = "2.0.21"
+junit = "5.10.2"
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
+[libraries]
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
