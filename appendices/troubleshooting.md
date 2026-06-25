@@ -67,6 +67,6 @@ for internal links rather than hard-coded URLs.
 : Install Ruby and Bundler, then run `bundle install` in `docs/`.
 
 **A page renders code literally / Liquid errors**
-: If a code sample contains Liquid-like syntax (double curly braces, or `{%`-style
-tags), Jekyll tries to interpret it. Wrap that sample in a Liquid `raw` /
-`endraw` block so it is rendered verbatim.
+: Jekyll's Liquid runs before Markdown, so it interprets Liquid-style tag
+delimiters even inside code spans. If a sample contains such delimiters, wrap
+that sample in a Liquid `raw` / `endraw` block so it is rendered verbatim.
