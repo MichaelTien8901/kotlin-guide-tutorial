@@ -21,8 +21,5 @@ Tie everything together with two end-to-end capstone projects.
 
 | Chapter | Description |
 |---------|-------------|
-| CLI Capstone | A Kotlin command-line app, end to end |
-| Android Capstone | A full Android app: Compose, Room, networking, Hilt, WorkManager |
-
-{: .note }
-Chapters for this part are being written. Check back soon.
+| [CLI Capstone: Text Stats]({% link part9/01-cli-capstone.md %}) | A Kotlin command-line app, end to end |
+| [Android Capstone: Articles App]({% link part9/02-android-capstone.md %}) | A full Android app on the Part 8 architecture |

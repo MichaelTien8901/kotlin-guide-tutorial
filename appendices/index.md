@@ -14,10 +14,10 @@ Reference materials, glossary, and troubleshooting guides.
 
 | Appendix | Description |
 |----------|-------------|
-| Glossary | Kotlin & Android terminology |
-| References | External resources |
-| Troubleshooting | Common setup and build issues |
-| Further Resources | Continuing your Kotlin journey |
+| [Glossary]({% link appendices/glossary.md %}) | Kotlin & Android terminology |
+| [References]({% link appendices/references.md %}) | Official documentation and sources |
+| [Troubleshooting]({% link appendices/troubleshooting.md %}) | Common setup and build issues |
+| [Further Resources & Next Steps]({% link appendices/further-resources.md %}) | Continuing your Kotlin journey |
 
 ## Quick Links
 
@@ -30,6 +30,3 @@ Reference materials, glossary, and troubleshooting guides.
 ### Sample Code
 - [Examples in this guide](https://github.com/MichaelTien8901/kotlin-guide-tutorial/tree/main/examples)
 - [Kotlin Playground](https://play.kotlinlang.org/)
-
-{: .note }
-Appendix pages are being written. Check back soon.
