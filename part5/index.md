@@ -23,12 +23,9 @@ Embrace Kotlin's functional style and its more advanced language features.
 
 | Chapter | Description |
 |---------|-------------|
-| Lambdas & Higher-Order Functions | Function types, lambdas, references, closures |
-| Scope Functions | `let`/`run`/`with`/`apply`/`also` |
-| Delegation | Class delegation `by`, delegated properties |
-| Operators | Operator overloading, destructuring |
-| DSLs | Type-safe builders, `@DslMarker` |
-| Exceptions & Reflection | `runCatching`, annotations, reflection |
-
-{: .note }
-Chapters for this part are being written. Check back soon.
+| [Lambdas & Higher-Order Functions]({% link part5/01-lambdas-hof.md %}) | Function types, lambdas, references, closures |
+| [Scope Functions]({% link part5/02-scope-functions.md %}) | `let`/`run`/`with`/`apply`/`also` |
+| [Delegation]({% link part5/03-delegation.md %}) | Class delegation `by`, delegated properties |
+| [Operator Overloading]({% link part5/04-operators.md %}) | Operator overloading, destructuring |
+| [Type-Safe Builders (DSLs)]({% link part5/05-dsls.md %}) | Type-safe builders, `@DslMarker` |
+| [Exceptions & Reflection]({% link part5/06-exceptions-reflection.md %}) | `runCatching`, annotations, reflection |

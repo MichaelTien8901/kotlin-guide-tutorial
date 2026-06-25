@@ -11,3 +11,6 @@ rootProject.name = "kotlin-guide-examples-core"
 include("hello")
 include("part2")
 include("part3")
+include("part4")
+include("part5")
+include("part6")

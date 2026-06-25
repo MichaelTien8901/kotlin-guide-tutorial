@@ -22,11 +22,8 @@ Work with Kotlin's collections and write reusable, type-safe code.
 
 | Chapter | Description |
 |---------|-------------|
-| Collections | Arrays, lists, sets, maps; read-only vs mutable |
-| Operations | Transform, filter, aggregate, group |
-| Sequences | Lazy vs eager evaluation |
-| Generics | Generic functions/classes, constraints |
-| Variance | `in`/`out`, star projection, `reified` |
-
-{: .note }
-Chapters for this part are being written. Check back soon.
+| [Collections]({% link part4/01-collections.md %}) | Arrays, lists, sets, maps; read-only vs mutable |
+| [Collection Operations]({% link part4/02-operations.md %}) | Transform, filter, aggregate, group |
+| [Sequences]({% link part4/03-sequences.md %}) | Lazy vs eager evaluation |
+| [Generics]({% link part4/04-generics.md %}) | Generic functions/classes, constraints |
+| [Variance & Reified Types]({% link part4/05-variance.md %}) | `in`/`out`, star projection, `reified` |

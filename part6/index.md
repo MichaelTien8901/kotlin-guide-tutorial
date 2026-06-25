@@ -23,12 +23,9 @@ Write asynchronous, concurrent code with Kotlin coroutines.
 
 | Chapter | Description |
 |---------|-------------|
-| Suspend & Builders | `suspend`, `launch`, `async`/`await`, `runBlocking` |
-| Scopes & Dispatchers | Context, `Job`, dispatchers, `withContext` |
-| Structured Concurrency | Cancellation, timeouts, exception propagation |
-| Flow | Cold streams, operators, `StateFlow`/`SharedFlow` |
-| Channels | Producer/consumer communication |
-| Testing Coroutines | `runTest`, virtual time, test dispatchers |
-
-{: .note }
-Chapters for this part are being written. Check back soon.
+| [Suspend Functions & Builders]({% link part6/01-suspend-builders.md %}) | `suspend`, `launch`, `async`/`await`, `runBlocking` |
+| [Scopes, Context & Dispatchers]({% link part6/02-scopes-dispatchers.md %}) | Context, `Job`, dispatchers, `withContext` |
+| [Structured Concurrency]({% link part6/03-structured-concurrency.md %}) | Cancellation, timeouts, exception propagation |
+| [Asynchronous Streams with Flow]({% link part6/04-flow.md %}) | Cold streams, operators, `StateFlow`/`SharedFlow` |
+| [Channels]({% link part6/05-channels.md %}) | Producer/consumer communication |
+| [Testing Coroutines]({% link part6/06-testing-coroutines.md %}) | `runTest`, virtual time, test dispatchers |
