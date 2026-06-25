@@ -22,11 +22,8 @@ Learn Kotlin's core syntax: values, types, null safety, control flow, and functi
 
 | Chapter | Description |
 |---------|-------------|
-| Variables & Types | `val`/`var`, basic types, inference |
-| Strings | String templates and multiline strings |
-| Null Safety | Nullable types, safe calls, Elvis, `!!` |
-| Control Flow | Operators, `if`/`when`, loops, ranges |
-| Functions | Parameters, default/named args, single-expression |
-
-{: .note }
-Chapters for this part are being written. Check back soon.
+| [Variables & Types]({% link part2/01-variables-and-types.md %}) | `val`/`var`, basic types, inference |
+| [Strings]({% link part2/02-strings.md %}) | String templates and multiline strings |
+| [Null Safety]({% link part2/03-null-safety.md %}) | Nullable types, safe calls, Elvis, `!!` |
+| [Control Flow]({% link part2/04-control-flow.md %}) | `if`/`when` expressions, loops, ranges |
+| [Functions]({% link part2/05-functions.md %}) | Parameters, default/named args, single-expression |

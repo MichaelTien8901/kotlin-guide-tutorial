@@ -22,12 +22,9 @@ Model your domain with Kotlin's object-oriented and function features.
 
 | Chapter | Description |
 |---------|-------------|
-| Classes | Constructors, properties, accessors, `lazy` |
-| Visibility | Modifiers, packages, imports |
-| Inheritance & Interfaces | `open`/override, abstract, interfaces |
-| Data, Enum & Sealed | `data`/`enum`/`sealed` + exhaustive `when` |
-| Objects | `object`, `companion object`, singletons |
-| Extensions | Extension functions, `infix`, `vararg` |
-
-{: .note }
-Chapters for this part are being written. Check back soon.
+| [Classes & Properties]({% link part3/01-classes.md %}) | Constructors, properties, accessors, `lazy` |
+| [Visibility & Packages]({% link part3/02-visibility.md %}) | Modifiers, packages, imports |
+| [Inheritance & Interfaces]({% link part3/03-inheritance-interfaces.md %}) | `open`/override, abstract, interfaces |
+| [Data, Enum & Sealed Classes]({% link part3/04-data-enum-sealed.md %}) | `data`/`enum`/`sealed` + exhaustive `when` |
+| [Objects & Companions]({% link part3/05-objects.md %}) | `object`, `companion object`, singletons |
+| [Extension Functions]({% link part3/06-extensions.md %}) | Extension functions, `infix`, `vararg` |
