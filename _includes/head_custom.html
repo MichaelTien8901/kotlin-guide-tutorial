@@ -1,4 +1,7 @@
-<!-- Text site title (no logo): keep the long title compact and let it wrap -->
+<!-- Favicon: the Kotlin logo -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/kotlin-logo.svg' | relative_url }}">
+
+<!-- Text site title with the Kotlin logo icon; keep the long title compact -->
 <style>
   .site-title {
     font-size: 0.95rem !important;
@@ -8,6 +11,17 @@
     padding-top: 0.6rem !important;
     padding-bottom: 0.6rem !important;
     white-space: normal !important;
+  }
+  .site-title::before {
+    content: "";
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.5rem;
+    vertical-align: -0.25rem;
+    background-image: url("{{ '/assets/kotlin-logo.svg' | relative_url }}");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   @media (min-width: 50rem) {
     .site-title {
