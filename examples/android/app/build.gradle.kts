@@ -34,6 +34,12 @@ android {
     buildFeatures {
         compose = true
     }
+    testOptions {
+        unitTests {
+            // Required for Robolectric to access Android resources in local unit tests.
+            isIncludeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
@@ -51,4 +57,9 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
+    // Robolectric-backed Compose UI test (runs as a local JVM unit test, no emulator).
+    testImplementation(platform(libs.compose.bom))
+    testImplementation(libs.compose.ui.test.junit4)
+    testImplementation(libs.robolectric)
+    debugImplementation(libs.compose.ui.test.manifest)
 }

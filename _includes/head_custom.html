@@ -1,19 +1,17 @@
-<!-- Site logo - larger size with horizontal padding -->
+<!-- Text site title (no logo): keep the long title compact and let it wrap -->
 <style>
   .site-title {
-    height: 3.5rem !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    line-height: 1.25 !important;
+    height: auto !important;
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+    white-space: normal !important;
   }
-  .site-logo {
-    min-height: 3.5rem !important;
-    padding-left: 7% !important;
-    padding-right: 7% !important;
-  }
-  @media (max-width: 50rem) {
+  @media (min-width: 50rem) {
     .site-title {
-      height: 3rem !important;
-    }
-    .site-logo {
-      min-height: 3rem !important;
+      font-size: 1rem !important;
     }
   }
 </style>

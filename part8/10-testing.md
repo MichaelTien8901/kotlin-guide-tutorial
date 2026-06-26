@@ -67,7 +67,27 @@ class CounterScreenTest {
 ```
 
 Run these on the JVM with **Robolectric** (`testImplementation`) or on a device
-as instrumented tests.
+as instrumented tests. The example app's `CounterScreenTest` is exactly this — a
+Robolectric-backed Compose UI test that runs in CI (no emulator):
+
+```kotlin
+@RunWith(RobolectricTestRunner::class)
+@GraphicsMode(GraphicsMode.Mode.NATIVE)
+@Config(sdk = [34])
+class CounterScreenTest {
+    @get:Rule val composeTestRule = createComposeRule()
+
+    @Test
+    fun clickingIncrement_incrementsCount() {
+        composeTestRule.setContent { CounterScreen(viewModel = CounterViewModel()) }
+        composeTestRule.onNodeWithText("Increment").performClick()
+        composeTestRule.onNodeWithText("Count: 1").assertIsDisplayed()
+    }
+}
+```
+
+It needs `androidx.compose.ui:ui-test-junit4` + `ui-test-manifest`, Robolectric,
+and `testOptions { unitTests { isIncludeAndroidResources = true } }`.
 
 ## Testing flows
 
